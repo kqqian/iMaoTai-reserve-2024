@@ -21,7 +21,7 @@ push plus 微信推送,具体使用参考  https://www.pushplus.plus
 PUSH_TOKEN = os.environ.get("PUSHPLUS_KEY")
 '''
 
-PUSH_TOKEN = None
+PUSH_TOKEN = "a102f2559a2d434c841be4d9a5c6213e"
 
 
 '''
