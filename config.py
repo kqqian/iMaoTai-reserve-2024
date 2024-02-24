@@ -21,14 +21,12 @@ push plus 微信推送,具体使用参考  https://www.pushplus.plus
 PUSH_TOKEN = os.environ.get("PUSHPLUS_KEY")
 '''
 
-PUSH_TOKEN = "a102f2559a2d434c841be4d9a5c6213e"
 
 
 '''
 *********** 地图配置 ***********
 获取地点信息,这里用的高德api,需要自己去高德开发者平台申请自己的key
 '''
-AMAP_KEY = "a12b4f00c8f21449dde11fa9ffac0a32"
 
 
 '''
@@ -48,7 +46,6 @@ key用了SHA-256转化,所以这里可以配置任意字符串,不用遵守AES�
 如果不会配置环境变量(建议学习)、不care安全性、非开源运行,你可以在这里明文指定,eg:PRIVATE_AES_KEY = '666666'
 ps:本来是写了判断是否配置密钥，可以自由选择明文保存的方式。但是还是为了安全性，限制了必须使用AES加密。哪怕是明文密钥。
 '''
-PRIVATE_AES_KEY = "5d51f498fae6cbd081d721b8d656033b0f43963fee7b22a04be64ab311df4e63"
 
 
 '''
